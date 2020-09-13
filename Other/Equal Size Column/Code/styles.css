@@ -1,0 +1,32 @@
+    @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+    body {
+        background: #000;
+        margin: 0;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+    }
+    
+    .container .column {
+        width: 600px;
+        margin: 140px auto;
+        background: #fff;
+        display: table;
+    }
+    
+    .container .column .column-row {
+        display: table-row;
+    }
+    
+    .container .column .column-row .column-cell {
+        display: table-cell;
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .container .column .column-row .column-cell.column1 {
+        background: #00ffaa;
+    }
+    
+    .container .column .column-row .column-cell.column2 {
+        background: #037a66;
+    }
