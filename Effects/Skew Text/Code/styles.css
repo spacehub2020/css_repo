@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+    background: #000;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.text {
+    margin: 250px 300px;
+    text-align: center;
+    transition: .5s;
+    display: inline-block;
+}
+
+.text span {
+    background: rgb(50, 77, 69);
+    width: 95px;
+    height: 100px;
+    color: rgb(91, 204, 166);
+    display: block;
+    line-height: 120px;
+    font-size: 45px;
+    float: left;
+    transition: .5s;
+}
+
+.text span:nth-child(1) {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.text span:nth-child(1) {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.text:hover span:nth-child(odd) {
+    transform: skewY(-15deg);
+    box-shadow: 0 60px 20px rgba(65, 62, 62, 0.1);
+    color: aqua;
+}
+
+.text:hover span:nth-child(even) {
+    transform: skewY(15deg);
+    box-shadow: 0 60px 20px rgba(65, 62, 62, 0.1), inset 0px 0 20px rgba(97, 84, 84, 0.2);
+    color: aqua;
+}
+
+.text:hover {
+    transform: rotateX(35deg);
+}
