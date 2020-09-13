@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+    background: #000;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    padding: 50px;
+    margin: 0;
+    border: 10px solid #07fac1;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+ul li {
+    color: #07fac1;
+    float: left;
+    list-style: none;
+    font-size: 5em;
+    transition: .9s;
+}
+
+ul:hover li {
+    transform: rotateY(360deg);
+}
+
+ul:hover li:nth-child(1) {
+    transition-delay: .9s;
+}
+
+ul:hover li:nth-child(2) {
+    transition-delay: .9s;
+}
+
+ul:hover li:nth-child(3) {
+    transition-delay: .9s;
+}
